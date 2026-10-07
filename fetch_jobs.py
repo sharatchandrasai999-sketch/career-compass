@@ -42,6 +42,38 @@ SENIORITY_EXCLUDE = ["senior", "sr.", "staff", "principal", "director",
                      "vp ", "vice president", "lead ", "head of", "manager"]
 
 BOARDS = [
+    ("greenhouse", "nextroll", "Nextroll"),
+    ("greenhouse", "cloudbeds", "Cloudbeds"),
+    ("greenhouse", "fleetio", "Fleetio"),
+    ("greenhouse", "axon", "Axon"),
+    ("greenhouse", "tubitv", "Tubitv"),
+    ("greenhouse", "eltropyinc", "Eltropyinc"),
+    ("greenhouse", "cognitiv", "Cognitiv"),
+    ("greenhouse", "shopmonkey", "Shopmonkey"),
+    ("greenhouse", "ezcaterinc", "Ezcaterinc"),
+    ("greenhouse", "trivelta", "Trivelta"),
+    ("greenhouse", "appdirect", "Appdirect"),
+    ("greenhouse", "hs", "Hs"),
+    ("greenhouse", "betterhelpcom", "Betterhelpcom"),
+    ("greenhouse", "starrez", "Starrez"),
+    ("greenhouse", "engine", "Engine"),
+    ("greenhouse", "headspacesourcing", "Headspacesourcing"),
+    ("greenhouse", "weedmaps77", "Weedmaps77"),
+    ("greenhouse", "patterndata", "Patterndata"),
+    ("ashby", "higharc", "Higharc"),
+    ("ashby", "mural", "Mural"),
+    ("ashby", "ironcladhq", "Ironcladhq"),
+    ("ashby", "wrapbook", "Wrapbook"),
+    ("ashby", "tabs", "Tabs"),
+    ("ashby", "vibe", "Vibe"),
+    ("ashby", "unicourt", "Unicourt"),
+    ("ashby", "meridianlink", "Meridianlink"),
+    ("ashby", "scan-com", "Scan Com"),
+    ("ashby", "virtuous", "Virtuous"),
+    ("lever", "agiloft", "Agiloft"),
+    ("lever", "gohighlevel", "Gohighlevel"),
+    ("lever", "rover", "Rover"),
+    ("lever", "redoxengine", "Redoxengine"),
     ("greenhouse", "6sense", "6sense"),    ("greenhouse", "abnormalsecurity", "Abnormal Security"),    ("greenhouse", "airship", "Airship"),    ("greenhouse", "alloy", "Alloy"),    ("greenhouse", "alpaca", "Alpaca"),    ("greenhouse", "anthropic", "Anthropic"),    ("greenhouse", "apolloio", "Apollo.io"),    ("greenhouse", "appian", "Appian"),    ("greenhouse", "arizeai", "Arize AI"),    ("greenhouse", "assemblyai", "AssemblyAI"),    ("greenhouse", "attentive", "Attentive"),    ("greenhouse", "axonius", "Axonius"),    ("greenhouse", "backblaze", "Backblaze"),    ("greenhouse", "beamtherapeutics", "Beam Therapeutics"),    ("greenhouse", "betterhelp", "BetterHelp"),    ("greenhouse", "betterment", "Betterment"),    ("greenhouse", "bigid", "BigID"),    ("greenhouse", "billcom", "Bill.com"),    ("greenhouse", "bitgo", "BitGo"),    ("greenhouse", "bitpanda", "Bitpanda"),    ("greenhouse", "bitwarden", "Bitwarden"),    ("greenhouse", "blend", "Blend"),    ("greenhouse", "bloomreach", "Bloomreach"),    ("greenhouse", "braze", "Braze"),    ("greenhouse", "bringg", "Bringg"),    ("greenhouse", "bybit", "Bybit"),    ("greenhouse", "calicolabs", "Calico Labs"),    ("greenhouse", "calm", "Calm"),    ("greenhouse", "cameo", "Cameo"),    ("greenhouse", "carta", "Carta"),    ("greenhouse", "catonetworks", "Cato Networks"),    ("greenhouse", "celigo", "Celigo"),    ("greenhouse", "censys", "Censys"),    ("greenhouse", "chainguard", "Chainguard"),    ("greenhouse", "checkr", "Checkr"),    ("greenhouse", "circleci", "CircleCI"),    ("greenhouse", "classpass", "ClassPass"),    ("greenhouse", "cleo", "Cleo"),    ("greenhouse", "cognism", "Cognism"),    ("greenhouse", "complyadvantage", "ComplyAdvantage"),    ("greenhouse", "consensys", "Consensys"),    ("greenhouse", "contentful", "Contentful"),    ("greenhouse", "coreweave", "CoreWeave"),    ("greenhouse", "coursera", "Coursera"),    ("greenhouse", "cribl", "Cribl"),    ("greenhouse", "cultureamp", "Culture Amp"),    ("greenhouse", "current", "Current"),    ("greenhouse", "customerio", "Customer.io"),    ("greenhouse", "datadog", "Datadog"),    ("greenhouse", "descope", "Descope"),    ("greenhouse", "dominodatalab", "Domino Data Lab"),    ("greenhouse", "doordashusa", "DoorDash"),    ("greenhouse", "doximity", "Doximity"),    ("greenhouse", "earnin", "Earnin"),    ("greenhouse", "epicgames", "Epic Games"),    ("greenhouse", "everlaw", "Everlaw"),    ("greenhouse", "faire", "Faire"),    ("greenhouse", "feedzai", "Feedzai"),    ("greenhouse", "figure", "Figure Technologies"),    ("greenhouse", "filecoinfoundation", "Filecoin Foundation"),    ("greenhouse", "fireblocks", "Fireblocks"),    ("greenhouse", "flatironhealth", "Flatiron Health"),    ("greenhouse", "flexe", "Flexe"),    ("greenhouse", "flexport", "Flexport"),    ("greenhouse", "forter", "Forter"),    ("greenhouse", "fourkites", "FourKites"),    ("greenhouse", "freenome", "Freenome"),    ("greenhouse", "future", "Future Fit"),    ("greenhouse", "gemini", "Gemini"),    ("greenhouse", "ginkgobioworks", "Ginkgo Bioworks"),    ("greenhouse", "gitlab", "GitLab"),    ("greenhouse", "gleanwork", "Glean"),    ("greenhouse", "globalizationpartners", "Globalization Partners"),    ("greenhouse", "gocardless", "GoCardless"),    ("greenhouse", "goguardian", "GoGuardian"),    ("greenhouse", "gomotive", "Motive"),    ("greenhouse", "grafanalabs", "Grafana Labs"),    ("greenhouse", "greenhouse", "Greenhouse Software"),    ("greenhouse", "gympass", "Gympass"),    ("greenhouse", "hackerrank", "HackerRank"),    ("greenhouse", "hellofresh", "HelloFresh"),    ("greenhouse", "highnote", "Highnote"),    ("greenhouse", "homechef", "Home Chef"),    ("greenhouse", "homelight", "Homelight"),    ("greenhouse", "homeward", "Homeward"),    ("greenhouse", "honeycomb", "Honeycomb"),    ("greenhouse", "humaninterest", "Human Interest"),    ("greenhouse", "huntress", "Huntress"),    ("greenhouse", "imbue", "Imbue"),    ("greenhouse", "imply", "Imply"),    ("greenhouse", "inflectionai", "Inflection AI"),    ("greenhouse", "instawork", "Instawork"),    ("greenhouse", "invisibletech", "Invisible Technologies"),    ("greenhouse", "ixllearning", "IXL Learning"),    ("greenhouse", "janestreet", "Jane Street"),    ("greenhouse", "jfrog", "JFrog"),    ("greenhouse", "justworks", "Justworks"),    ("greenhouse", "karat", "Karat"),    ("greenhouse", "kasa", "Kasa Living"),    ("greenhouse", "khanacademy", "Khan Academy"),    ("greenhouse", "kickstarter", "Kickstarter"),    ("greenhouse", "knock", "Knock"),    ("greenhouse", "knowbe4", "KnowBe"),    ("greenhouse", "labelbox", "Labelbox"),    ("greenhouse", "launchdarkly", "LaunchDarkly"),    ("greenhouse", "lithic", "Lithic"),    ("greenhouse", "luno", "Luno"),    ("greenhouse", "masterclass", "MasterClass"),    ("greenhouse", "mavenclinic", "Maven Clinic"),    ("greenhouse", "mercury", "Mercury"),    ("greenhouse", "mindbody", "Mindbody"),    ("greenhouse", "minio", "MinIO"),    ("greenhouse", "misfitsmarket", "Misfits Market"),    ("greenhouse", "mixpanel", "Mixpanel"),    ("greenhouse", "modernhealth", "Modern Health"),    ("greenhouse", "monzo", "Monzo"),    ("greenhouse", "movableink", "Movable Ink"),    ("greenhouse", "mozilla", "Mozilla"),    ("greenhouse", "myfitnesspal", "MyFitnessPal"),    ("greenhouse", "n26", "N"),    ("greenhouse", "narvar", "Narvar"),    ("greenhouse", "natera", "Natera"),    ("greenhouse", "netlify", "Netlify"),    ("greenhouse", "netskope", "Netskope"),    ("greenhouse", "newsela", "Newsela"),    ("greenhouse", "nextdoor", "Nextdoor"),    ("greenhouse", "novacredit", "Nova Credit"),    ("greenhouse", "nuro", "Nuro"),    ("greenhouse", "observeai", "Observe.AI"),    ("greenhouse", "offerup", "OfferUp"),    ("greenhouse", "okta", "Okta"),    ("greenhouse", "okx", "OKX"),    ("greenhouse", "omadahealth", "Omada Health"),    ("greenhouse", "onemedical", "One Medical"),    ("greenhouse", "onetrust", "OneTrust"),    ("greenhouse", "orcasecurity", "Orca Security"),    ("greenhouse", "orchard", "Orchard"),    ("greenhouse", "osano", "Osano"),    ("greenhouse", "otterai", "Otter.ai"),    ("greenhouse", "oura", "Oura"),    ("greenhouse", "parsleyhealth", "Parsley Health"),    ("greenhouse", "peloton", "Peloton"),    ("greenhouse", "pendo", "Pendo"),    ("greenhouse", "polyai", "PolyAI"),    ("greenhouse", "prismatic", "Prismatic"),    ("greenhouse", "project44", "project"),    ("greenhouse", "proton", "Proton"),    ("greenhouse", "public", "Public.com"),    ("greenhouse", "qualtrics", "Qualtrics"),    ("greenhouse", "quillbot", "QuillBot"),    ("greenhouse", "recordedfuture", "Recorded Future"),    ("greenhouse", "recursionpharmaceuticals", "Recursion Pharmaceuticals"),    ("greenhouse", "redwoodmaterials", "Redwood Materials"),    ("greenhouse", "relativity", "Relativity"),    ("greenhouse", "remote", "Remote"),    ("greenhouse", "riotgames", "Riot Games"),    ("greenhouse", "riskified", "Riskified"),    ("greenhouse", "roblox", "Roblox"),    ("greenhouse", "rocketlab", "Rocket Lab"),    ("greenhouse", "rubrik", "Rubrik"),    ("greenhouse", "sambanovasystems", "SambaNova Systems"),    ("greenhouse", "samsara", "Samsara"),    ("greenhouse", "scaleai", "Scale AI"),    ("greenhouse", "scopely", "Scopely"),    ("greenhouse", "seekout", "SeekOut"),    ("greenhouse", "sezzle", "Sezzle"),    ("greenhouse", "smartsheet", "Smartsheet"),    ("greenhouse", "snorkelai", "Snorkel AI"),    ("greenhouse", "speechmatics", "Speechmatics"),    ("greenhouse", "springboard", "Springboard"),    ("greenhouse", "stabilityai", "Stability AI"),    ("greenhouse", "starburst", "Starburst"),    ("greenhouse", "stitchfix", "StitchFix"),    ("greenhouse", "stockx", "StockX"),    ("greenhouse", "sumologic", "Sumo Logic"),    ("greenhouse", "swordhealth", "Sword Health"),    ("greenhouse", "tailscale", "Tailscale"),    ("greenhouse", "talkspace", "Talkspace"),    ("greenhouse", "taskrabbit", "TaskRabbit"),    ("greenhouse", "tempo", "Tempo Fit"),    ("greenhouse", "textio", "Textio"),    ("greenhouse", "thrivemarket", "Thrive Market"),    ("greenhouse", "toast", "Toast"),    ("greenhouse", "togetherai", "Together AI"),    ("greenhouse", "traderepublicbank", "Trade Republic"),    ("greenhouse", "tripactions", "TripActions"),    ("greenhouse", "truelayer", "TrueLayer"),    ("greenhouse", "truveta", "Truveta"),    ("greenhouse", "twitch", "Twitch"),    ("greenhouse", "udacity", "Udacity"),    ("greenhouse", "udemy", "Udemy"),    ("greenhouse", "upwork", "Upwork"),    ("greenhouse", "vardaspace", "Varda Space"),    ("greenhouse", "vectara", "Vectara"),    ("greenhouse", "vercel", "Vercel"),    ("greenhouse", "verkada", "Verkada"),    ("greenhouse", "vestwell", "Vestwell"),    ("greenhouse", "wasabi", "Wasabi Technologies"),    ("greenhouse", "weee", "Weee!"),    ("greenhouse", "wikimedia", "Wikimedia Foundation"),    ("greenhouse", "wizinc", "Wiz"),    ("greenhouse", "workato", "Workato"),    ("greenhouse", "wrike", "Wrike"),    ("greenhouse", "ziprecruiter", "ZipRecruiter"),    ("greenhouse", "zoominfo", "ZoomInfo"),    ("lever", "aircall", "Aircall"),    ("lever", "brightedge", "BrightEdge"),    ("lever", "outreach", "Outreach"),    ("lever", "palantir", "Palantir"),    ("lever", "ro", "Ro"),    ("lever", "tala", "Tala"),    ("lever", "veeva", "Veeva Systems"),    ("lever", "wattpad", "Wattpad"),    ("lever", "zoox", "Zoox"),    ("ashby", "abridge", "Abridge"),    ("ashby", "anrok", "Anrok"),    ("ashby", "attio", "Attio"),    ("ashby", "aurorasolar", "Aurora Solar"),    ("ashby", "baseten", "Baseten"),    ("ashby", "bland", "Bland"),    ("ashby", "braintrust", "Braintrust"),    ("ashby", "cedar", "Cedar"),    ("ashby", "character", "Character AI"),    ("ashby", "column", "Column"),    ("ashby", "crusoe", "Crusoe"),    ("ashby", "cursor", "Cursor (Anysphere)"),    ("ashby", "decagon", "Decagon"),    ("ashby", "drata", "Drata"),    ("ashby", "eightsleep", "Eight Sleep"),    ("ashby", "endgame", "Endgame"),    ("ashby", "gamma", "Gamma"),    ("ashby", "griffin", "Griffin"),    ("ashby", "headway", "Headway"),    ("ashby", "krea", "Krea AI"),    ("ashby", "langchain", "LangChain"),    ("ashby", "levels", "Levels"),    ("ashby", "linear", "Linear"),    ("ashby", "lovable", "Lovable"),    ("ashby", "mercor", "Mercor"),    ("ashby", "merge", "Merge"),    ("ashby", "middesk", "Middesk"),    ("ashby", "modal", "Modal"),    ("ashby", "moderntreasury", "Modern Treasury"),    ("ashby", "nango", "Nango"),    ("ashby", "notion", "Notion"),    ("ashby", "orb", "Orb"),    ("ashby", "persona", "Persona"),    ("ashby", "pinecone", "Pinecone"),    ("ashby", "poolside", "Poolside"),    ("ashby", "posthog", "PostHog"),    ("ashby", "preply", "Preply"),    ("ashby", "ramp", "Ramp"),    ("ashby", "reflectionai", "Reflection AI"),    ("ashby", "replit", "Replit"),    ("ashby", "resend", "Resend"),    ("ashby", "rho", "Rho"),    ("ashby", "rilla", "Rilla"),    ("ashby", "rula", "Rula"),    ("ashby", "runpod", "Runpod"),    ("ashby", "sardine", "Sardine"),    ("ashby", "saronic", "Saronic"),    ("ashby", "secureframe", "Secureframe"),    ("ashby", "sierra", "Sierra"),    ("ashby", "skydio", "Skydio"),    ("ashby", "snowflake", "Snowflake"),    ("ashby", "speak", "Speak"),    ("ashby", "substack", "Substack"),    ("ashby", "superpower", "Superpower"),    ("ashby", "triggerdev", "Trigger.dev"),    ("ashby", "unit", "Unit"),    ("ashby", "vanta", "Vanta"),    ("ashby", "warp", "Warp"),    ("ashby", "watershed", "Watershed"),    ("ashby", "weaviate", "Weaviate"),    ("ashby", "whoop", "Whoop"),    ("ashby", "zapier", "Zapier"),    ("ashby", "zilch", "Zilch"),    ("greenhouse", "airbnb", "Airbnb"), ("greenhouse", "stripe", "Stripe"),
     ("greenhouse", "coinbase", "Coinbase"), ("greenhouse", "robinhood", "Robinhood"),
     ("greenhouse", "duolingo", "Duolingo"), ("greenhouse", "databricks", "Databricks"),
@@ -179,7 +211,8 @@ def greenhouse_detail(job: dict) -> None:
 
 
 PORTAL_RANK = {"greenhouse": 0, "lever": 0, "ashby": 0, "smartrecruiters": 0,
-               "workday": 0, "remotive": 1}
+               "workday": 0, "recruitee": 0, "personio": 0,
+               "remoteok": 1, "hackernews": 1, "wwr": 1, "remotive": 1, "rippling": 1}
 
 # Workday is per-tenant: (tenant, datacenter, site, company). No CORS headers,
 # so these are snapshot-only (the Actions runner calls them server-side).
@@ -213,6 +246,100 @@ SMARTRECRUITERS = [
     ("Version1", "Version 1"),
     ("DeliveryHero", "Delivery Hero"),
 ]
+
+RECRUITEE = [
+    ("helloprint", "Helloprint"),
+    ("channable", "Channable"),
+    ("trustedshops", "Trusted Shops"),
+    ("bunq", "bunq"),
+    ("cmcom", "CM.com"),
+]
+
+PERSONIO = [
+    ("personio", "Personio"),
+    ("clark", "Clark"),
+]
+
+RIPPLING = [
+    ("rippling", "Rippling"),
+    ("smokeballcareers", "Smokeball"),
+    ("celerdataopenroles", "CelerData"),
+    ("ias-careers", "IAS"),
+]
+
+
+def fetch_rippling(slug, company) -> list[dict]:
+    jobs = []
+    try:
+        r = requests.get(
+            f"https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs",
+            headers=HEADERS, timeout=TIMEOUT)
+        if not r.ok:
+            return []
+        d = r.json()
+        items = d if isinstance(d, list) else d.get("jobs", [])
+        for j in items:
+            loc = j.get("workLocation") or {}
+            loc_s = loc.get("label", "") if isinstance(loc, dict) else str(loc)
+            jobs.append({
+                "portal": "rippling", "board": slug, "company": company,
+                "job_id": f"rippling-{j.get('uuid', '')}",
+                "title": j.get("name", ""),
+                "url": j.get("url", "") or f"https://ats.rippling.com/{slug}/jobs",
+                "location": loc_s, "description": "", "posted_at": None})
+    except Exception:
+        pass
+    return jobs
+
+
+def fetch_recruitee(slug, company) -> list[dict]:
+    jobs = []
+    try:
+        r = requests.get(f"https://{slug}.recruitee.com/api/offers/",
+                         headers=HEADERS, timeout=TIMEOUT)
+        if not r.ok:
+            return []
+        d = r.json()
+        offers = d.get("offers", d if isinstance(d, list) else [])
+        for o in offers:
+            jobs.append({
+                "portal": "recruitee", "board": slug, "company": company,
+                "job_id": f"recruitee-{o.get('id', '')}",
+                "title": o.get("title", ""),
+                "url": o.get("careers_url") or o.get("careers_apply_url", ""),
+                "location": o.get("location", ""),
+                "description": strip_html(o.get("description", ""))[:DESC_CHARS],
+                "posted_at": o.get("created_at")})
+    except Exception:
+        pass
+    return jobs
+
+
+def fetch_personio(slug, company) -> list[dict]:
+    jobs = []
+    try:
+        r = requests.get(f"https://{slug}.jobs.personio.de/xml",
+                         headers=HEADERS, timeout=TIMEOUT)
+        if not r.ok:
+            return []
+        for m in re.finditer(r"<position>(.*?)</position>", r.text, re.S):
+            p = m.group(1)
+            def tag(t):
+                x = re.search(rf"<{t}>(.*?)</{t}>", p, re.S)
+                return html.unescape(x.group(1).strip()) if x else ""
+            desc = " ".join(re.findall(
+                r"<jobDescription>.*?<value>(.*?)</value>", p, re.S))
+            jobs.append({
+                "portal": "personio", "board": slug, "company": company,
+                "job_id": f"personio-{tag('id')}",
+                "title": tag("name"),
+                "url": f"https://{slug}.jobs.personio.de/job/{tag('id')}",
+                "location": tag("office"),
+                "description": strip_html(desc)[:DESC_CHARS],
+                "posted_at": None})
+    except Exception:
+        pass
+    return jobs
 
 
 def parse_posted_on(s):
@@ -310,6 +437,101 @@ def sr_detail(job):
         job["description"] = ""
 
 
+def fetch_remoteok() -> list[dict]:
+    """RemoteOK: startup-heavy remote tech jobs, public JSON API."""
+    jobs = []
+    try:
+        r = requests.get("https://remoteok.com/api", headers=HEADERS, timeout=TIMEOUT)
+        if not r.ok:
+            return []
+        for it in r.json()[1:]:  # [0] is a legal notice
+            jobs.append({
+                "portal": "remoteok", "board": "", "company": it.get("company", ""),
+                "job_id": f"remoteok-{it.get('id', '')}",
+                "title": it.get("position", ""),
+                "url": it.get("apply_url") or it.get("url", ""),
+                "location": (it.get("location") or "") + " (remote)",
+                "description": strip_html(it.get("description", "")),
+                "posted_at": it.get("date")})
+    except Exception:
+        pass
+    return jobs
+
+
+def fetch_hn() -> list[dict]:
+    """Hacker News job stories: YC startup hiring posts, public Firebase API."""
+    jobs = []
+    try:
+        r = requests.get("https://hacker-news.firebaseio.com/v0/jobstories.json",
+                         headers=HEADERS, timeout=TIMEOUT)
+        if not r.ok:
+            return []
+        ids = r.json()[:31]
+        with cf.ThreadPoolExecutor(max_workers=8) as ex:
+            items = list(ex.map(
+                lambda i: requests.get(
+                    f"https://hacker-news.firebaseio.com/v0/item/{i}.json",
+                    headers=HEADERS, timeout=TIMEOUT).json(), ids))
+        for it in items:
+            if not isinstance(it, dict) or not it.get("title"):
+                continue
+            raw = it["title"]
+            company = re.split(r"\s*\(YC|\s+is\s+hiring|\s+[–—-]\s+", raw, maxsplit=1)[0].strip()
+            clean = re.sub(r"\s*\(YC[^)]*\)\s*", " ", raw)
+            clean = re.sub(r"(?i)^\s*" + re.escape(company) + r"\s*", "", clean)
+            clean = re.sub(r"(?i)is hiring\s*", "", clean).strip(" -–—")
+            jobs.append({
+                "portal": "hackernews", "board": "", "company": company or "YC startup",
+                "job_id": f"hn-{it.get('id', '')}",
+                "title": clean or raw,
+                "url": it.get("url") or f"https://news.ycombinator.com/item?id={it.get('id', '')}",
+                "location": "", "description": "",
+                "posted_at": _iso_ms((it.get("time") or 0) * 1000)})
+    except Exception:
+        pass
+    return jobs
+
+
+WWR_CATS = {"Full-Stack Programming", "Front-End Programming",
+            "Back-End Programming", "DevOps and Sysadmin"}
+
+
+def fetch_wwr() -> list[dict]:
+    """We Work Remotely programming RSS (no CORS -> snapshot-only)."""
+    jobs = []
+    try:
+        r = requests.get("https://weworkremotely.com/remote-jobs.rss",
+                         headers=HEADERS, timeout=TIMEOUT)
+        if not r.ok:
+            return []
+        for m in re.finditer(r"<item>(.*?)</item>", r.text, re.S):
+            im = m.group(1)
+            def tag(t):
+                x = re.search(rf"<{t}>(.*?)</{t}>", im, re.S)
+                return html.unescape(x.group(1).strip()) if x else ""
+            if tag("category") not in WWR_CATS:
+                continue
+            pub = tag("pubDate")
+            try:
+                posted = dt.datetime.strptime(pub, "%a, %d %b %Y %H:%M:%S %z").isoformat()
+            except ValueError:
+                posted = None
+            link = re.sub(r"<!\[CDATA\[(.*?)\]\]>", r"\1", tag("link"))
+            raw_title = re.sub(r"<!\[CDATA\[(.*?)\]\]>", r"\1", tag("title"))
+            company, _, title = raw_title.partition(":")
+            title, company = title.strip(), company.strip()
+            jobs.append({
+                "portal": "wwr", "board": "", "company": company,
+                "job_id": f"wwr-{abs(hash(link)) % 10**10}",
+                "title": title or raw_title,
+                "url": link, "location": "Remote",
+                "description": strip_html(tag("description"))[:4000],
+                "posted_at": posted})
+    except Exception:
+        pass
+    return jobs
+
+
 def dedup_key(j: dict) -> tuple[str, str]:
     company = re.sub(r"\s+(inc|llc|corp|co|ltd)$", "", norm(j["company"]))
     return (company, norm(j["title"]))
@@ -348,13 +570,22 @@ def main() -> None:
                      for t, d, s, c in WORKDAY})
         futs.update({ex.submit(fetch_sr, s, c): ("smartrecruiters", s)
                      for s, c in SMARTRECRUITERS})
+        futs.update({ex.submit(fetch_remoteok): ("remoteok", ""),
+                     ex.submit(fetch_hn): ("hackernews", ""),
+                     ex.submit(fetch_wwr): ("wwr", "")})
+        futs.update({ex.submit(fetch_recruitee, s, c): ("recruitee", s)
+                     for s, c in RECRUITEE})
+        futs.update({ex.submit(fetch_personio, s, c): ("personio", s)
+                     for s, c in PERSONIO})
+        futs.update({ex.submit(fetch_rippling, s, c): ("rippling", s)
+                     for s, c in RIPPLING})
         for f in cf.as_completed(futs):
             try:
                 all_jobs.extend(f.result())
                 ok_boards += 1
             except Exception as e:
                 print(f"board {futs[f]} failed: {e}", file=sys.stderr)
-    total_sources = len(BOARDS) + len(WORKDAY) + len(SMARTRECRUITERS)
+    total_sources = len(BOARDS) + len(WORKDAY) + len(SMARTRECRUITERS) + len(RECRUITEE) + len(PERSONIO) + len(RIPPLING) + 3
     print(f"boards ok: {ok_boards}/{total_sources}, postings scanned: {len(all_jobs)}")
 
     matched = []
