@@ -14,6 +14,7 @@
   <nav>
     <button class="tab active" data-tab="jobs">Jobs</button>
     <button class="tab" data-tab="apps">Applications</button>
+    <button class="tab" data-tab="insights">Insights</button>
     <button class="tab" data-tab="settings">Settings</button>
   </nav>
 </header>
@@ -53,6 +54,18 @@
       </div>
     </div>
     <div id="apps-list"></div>
+  </section>
+
+  <section id="tab-insights" class="panel hidden">
+    <p class="about">When do AI roles actually get posted? Built from publish dates in the live snapshot — times shown in your timezone. Only roles with a known publish date are counted; some boards report the date only (shown at midnight).</p>
+    <div class="controls">
+      <label>Year <select id="f-year"></select></label>
+      <label>Month <select id="f-month"></select></label>
+      <label>Date <input id="f-date" type="date"></label>
+      <button id="f-clear" class="ghost">Clear</button>
+      <span id="insights-count" class="muted"></span>
+    </div>
+    <div id="insights-body"></div>
   </section>
 
   <section id="tab-settings" class="panel hidden">
