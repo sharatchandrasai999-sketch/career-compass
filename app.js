@@ -726,7 +726,7 @@ function applyMajorFilter() {
   if (snapshotUpdatedAt) {
     const ageH = (Date.now() - new Date(snapshotUpdatedAt).getTime()) / 36e5;
     $("#snapshot-info").textContent =
-      `Snapshot updated ${agoText(snapshotUpdatedAt)} · refreshes every 30 min` +
+      `Snapshot updated ${agoText(snapshotUpdatedAt)} · refreshes every few hours` +
       (ageH > 3 ? " · STALE — hit “Pull live now” for fresh data" : "");
   }
 }
@@ -788,7 +788,7 @@ async function pullJobs() {
     renderJobs(); renderStats(failed);
     st.textContent = `${jobsCache.length} ${major} roles found (live)`;
     $("#snapshot-info").textContent = snapshotUpdatedAt
-      ? `Snapshot updated ${agoText(snapshotUpdatedAt)} · refreshes every 30 min` : "";
+      ? `Snapshot updated ${agoText(snapshotUpdatedAt)} · refreshes every few hours` : "";
     toast(`Found ${jobsCache.length} ${major} roles`);
   } catch (e) {
     st.textContent = "Failed: " + e.message;
@@ -1263,6 +1263,6 @@ $("#btn-clear").addEventListener("click", () => {
   $("#board-list").textContent = BOARDS.map((b) => b[2]).join(" · ");
   loadSnapshot(false);
   // Re-check the snapshot on the same cadence as the updater: new postings
-  // surface on the site within ~30 min of going live on a company board.
+  // surface on the site within a few hours of going live on a company board.
   setInterval(() => loadSnapshot(true), 30 * 60 * 1000);
 })();
